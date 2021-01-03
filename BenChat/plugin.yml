@@ -1,0 +1,221 @@
+name: BenChat
+main: dev.benjaminc.benchat.BenChatMain
+version: 1.0
+api-version: 1.16
+commands:
+  quickchat:
+    description: Gives access to all BenChat features
+    aliases: [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+
+permissions:
+  benchat.*:
+    description: Gives access to all BenChat features
+    children:
+      benchat.quickchat.send.a: false
+      benchat.quickchat.get.a: false
+      benchat.quickchat.send.b: false
+      benchat.quickchat.get.b: false
+      benchat.quickchat.send.c: false
+      benchat.quickchat.get.c: false
+      benchat.quickchat.send.d: false
+      benchat.quickchat.get.d: false
+      benchat.quickchat.send.e: false
+      benchat.quickchat.get.e: false
+      benchat.quickchat.send.f: false
+      benchat.quickchat.get.f: false
+      benchat.quickchat.send.g: false
+      benchat.quickchat.get.g: false
+      benchat.quickchat.send.h: false
+      benchat.quickchat.get.h: false
+      benchat.quickchat.send.i: false
+      benchat.quickchat.get.i: false
+      benchat.quickchat.send.j: false
+      benchat.quickchat.get.j: false
+      benchat.quickchat.send.k: false
+      benchat.quickchat.get.k: false
+      benchat.quickchat.send.l: false
+      benchat.quickchat.get.l: false
+      benchat.quickchat.send.m: false
+      benchat.quickchat.get.m: false
+      benchat.quickchat.send.n: false
+      benchat.quickchat.get.n: false
+      benchat.quickchat.send.o: false
+      benchat.quickchat.get.o: false
+      benchat.quickchat.send.p: false
+      benchat.quickchat.get.p: false
+      benchat.quickchat.send.q: false
+      benchat.quickchat.get.q: false
+      benchat.quickchat.send.r: false
+      benchat.quickchat.get.r: false
+      benchat.quickchat.send.s: false
+      benchat.quickchat.get.s: false
+      benchat.quickchat.send.t: false
+      benchat.quickchat.get.t: false
+      benchat.quickchat.send.u: false
+      benchat.quickchat.get.u: false
+      benchat.quickchat.send.v: false
+      benchat.quickchat.get.v: false
+      benchat.quickchat.send.w: false
+      benchat.quickchat.get.w: false
+      benchat.quickchat.send.x: false
+      benchat.quickchat.get.x: false
+      benchat.quickchat.send.y: false
+      benchat.quickchat.get.y: false
+      benchat.quickchat.send.z: false
+      benchat.quickchat.get.z: false
+  benchat.quickchat.send.a:
+    description: Quickchat send to group a
+    default: false
+  benchat.quickchat.get.a:
+    description: QuickChat get from group a
+    default: false
+  benchat.quickchat.send.b:
+    description: Quickchat send to group b
+    default: false
+  benchat.quickchat.get.b:
+    description: QuickChat get from group b
+    default: false
+  benchat.quickchat.send.c:
+    description: Quickchat send to group c
+    default: false
+  benchat.quickchat.get.c:
+    description: QuickChat get from group c
+    default: false
+  benchat.quickchat.send.d:
+    description: Quickchat send to group d
+    default: false
+  benchat.quickchat.get.d:
+    description: QuickChat get from group d
+    default: false
+  benchat.quickchat.send.e:
+    description: Quickchat send to group e
+    default: false
+  benchat.quickchat.get.e:
+    description: QuickChat get from group e
+    default: false
+  benchat.quickchat.send.f:
+    description: Quickchat send to group f
+    default: false
+  benchat.quickchat.get.f:
+    description: QuickChat get from group f
+    default: false
+  benchat.quickchat.send.g:
+    description: Quickchat send to group g
+    default: false
+  benchat.quickchat.get.g:
+    description: QuickChat get from group g
+    default: false
+  benchat.quickchat.send.h:
+    description: Quickchat send to group h
+    default: false
+  benchat.quickchat.get.h:
+    description: QuickChat get from group h
+    default: false
+  benchat.quickchat.send.i:
+    description: Quickchat send to group i
+    default: false
+  benchat.quickchat.get.i:
+    description: QuickChat get from group i
+    default: false
+  benchat.quickchat.send.j:
+    description: Quickchat send to group j
+    default: false
+  benchat.quickchat.get.j:
+    description: QuickChat get from group j
+    default: false
+  benchat.quickchat.send.k:
+    description: Quickchat send to group k
+    default: false
+  benchat.quickchat.get.k:
+    description: QuickChat get from group k
+    default: false
+  benchat.quickchat.send.l:
+    description: Quickchat send to group l
+    default: false
+  benchat.quickchat.get.l:
+    description: QuickChat get from group l
+    default: false
+  benchat.quickchat.send.m:
+    description: Quickchat send to group m
+    default: false
+  benchat.quickchat.get.m:
+    description: QuickChat get from group m
+    default: false
+  benchat.quickchat.send.n:
+    description: Quickchat send to group n
+    default: false
+  benchat.quickchat.get.n:
+    description: QuickChat get from group n
+    default: false
+  benchat.quickchat.send.o:
+    description: Quickchat send to group o
+    default: false
+  benchat.quickchat.get.o:
+    description: QuickChat get from group o
+    default: false
+  benchat.quickchat.send.p:
+    description: Quickchat send to group p
+    default: false
+  benchat.quickchat.get.p:
+    description: QuickChat get from group p
+    default: false
+  benchat.quickchat.send.q:
+    description: Quickchat send to group q
+    default: false
+  benchat.quickchat.get.q:
+    description: QuickChat get from group q
+    default: false
+  benchat.quickchat.send.r:
+    description: Quickchat send to group r
+    default: false
+  benchat.quickchat.get.r:
+    description: QuickChat get from group r
+    default: false
+  benchat.quickchat.send.s:
+    description: Quickchat send to group s
+    default: false
+  benchat.quickchat.get.s:
+    description: QuickChat get from group s
+    default: false
+  benchat.quickchat.send.t:
+    description: Quickchat send to group t
+    default: false
+  benchat.quickchat.get.t:
+    description: QuickChat get from group t
+    default: false
+  benchat.quickchat.send.u:
+    description: Quickchat send to group u
+    default: false
+  benchat.quickchat.get.u:
+    description: QuickChat get from group u
+    default: false
+  benchat.quickchat.send.v:
+    description: Quickchat send to group v
+    default: false
+  benchat.quickchat.get.v:
+    description: QuickChat get from group v
+    default: false
+  benchat.quickchat.send.w:
+    description: Quickchat send to group w
+    default: false
+  benchat.quickchat.get.w:
+    description: QuickChat get from group w
+    default: false
+  benchat.quickchat.send.x:
+    description: Quickchat send to group x
+    default: false
+  benchat.quickchat.get.x:
+    description: QuickChat get from group x
+    default: false
+  benchat.quickchat.send.y:
+    description: Quickchat send to group y
+    default: false
+  benchat.quickchat.get.y:
+    description: QuickChat get from group y
+    default: false
+  benchat.quickchat.send.z:
+    description: Quickchat send to group z
+    default: false
+  benchat.quickchat.get.z:
+    description: QuickChat get from group z
+    default: false
