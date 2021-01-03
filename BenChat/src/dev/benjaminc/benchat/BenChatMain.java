@@ -2,14 +2,14 @@ package dev.benjaminc.benchat;
 
 import java.util.List;
 
-import org.bukkit.configuration.file.FileConfiguration;
+//import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class BenChatMain extends JavaPlugin {
 	
 	public List<String> worlds;
 	
-	private FileConfiguration cfg = this.getConfig();
+//	private FileConfiguration cfg = this.getConfig();
 	
 	/**
 	 * Fired with the plugin is enabled

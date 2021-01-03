@@ -4,7 +4,12 @@ public class Keys {
 	
 	public static final String PERMISSION = "benchat";
 	
-	public static final String PERMISSION_QUICKMSG = "quickmsg";
+	public static final String PERMISSION_QUICKCHAT = "quickchat";
+	public static final String PERMISSION_QUICKCHAT_SEND = "send";
+	public static final String PERMISSION_QUICKCHAT_GET = "get";
+	
+	public static final String COMMAND_QUICKCHAT = "quickchat";
+
 	
 //	public static final String PROPERTY_LEVELNAME = "level-name";
 //	
